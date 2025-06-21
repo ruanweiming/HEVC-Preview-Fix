@@ -36,17 +36,17 @@ A simple script + Quick Action workflow to fix `.mp4` files encoded in HEVC (H.2
 curl -O https://raw.githubusercontent.com/ruanweiming/HEVC-Preview-Fix/refs/heads/main/hevc-fix-preview.sh
 
 # 2. 赋予执行权限 Make it executable
-chmod +x fix-preview.sh
+chmod +x hevc-fix-preview.sh
 ```
 
 ### ▶️ Usage / 使用方法
 
 ```bash
 # 修复单个视频 Fix single file
-./fix-preview.sh /path/to/video.mp4
+./hevc-fix-preview.sh /path/to/video.mp4
 
 # 批量修复 Fix multiple files
-./fix-preview.sh ~/Downloads/*.mp4
+./hevc-fix-preview.sh ~/Downloads/*.mp4
 ```
 
 ---
@@ -88,7 +88,7 @@ For each `.mp4` file:
 
 | 文件 | 说明 |
 |------|------|
-| `fix-preview.sh` | 终端运行脚本，支持批量处理 |
+| `hevc-fix-preview.sh` | 终端运行脚本，支持批量处理 |
 | `HEVC Preview Fix.workflow` | 可右键运行的 macOS 快捷操作 |
 | `README.md` | 使用说明（中英文）|
 
