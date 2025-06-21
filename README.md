@@ -10,7 +10,6 @@ A simple script + Quick Action workflow to fix `.mp4` files encoded in HEVC (H.2
 
 - 🧩 Fixes missing video previews in Finder / 修复 Finder 无法显示视频缩略图
 - 🎞 Enables QuickLook playback for HEVC `.mp4` / 启用 QuickLook 播放
-- 🍏 Makes videos compatible with iTunes/iPhone syncing / 使视频兼容 iTunes 和 iPhone 同步
 
 > 💡 Uses `-tag:v hvc1` to make macOS properly recognize HEVC content  
 > 💡 利用 `-tag:v hvc1` 标签让 macOS 正确识别 HEVC 视频
@@ -34,7 +33,7 @@ A simple script + Quick Action workflow to fix `.mp4` files encoded in HEVC (H.2
 
 ```bash
 # 1. 下载脚本 Download the script
-curl -O https://github.com/yourname/hevc-preview-fix/raw/main/fix-preview.sh
+curl -O https://raw.githubusercontent.com/ruanweiming/HEVC-Preview-Fix/refs/heads/main/hevc-fix-preview.sh
 
 # 2. 赋予执行权限 Make it executable
 chmod +x fix-preview.sh
