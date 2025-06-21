@@ -1,4 +1,4 @@
-# 🎬 HEVC Preview Fix for macOS / macOS 视频预览修复工具
+# 🎬 HEVC Quick Look & Preview Fix for macOS / macOS 视频预览修复工具
 
 A simple script + Quick Action workflow to fix `.mp4` files encoded in HEVC (H.265) that do not show thumbnails or QuickLook previews on macOS.
 
